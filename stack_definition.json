@@ -344,11 +344,11 @@
         },
         {
           "name": "watson_studio_plan",
-          "value": "do not install"
+          "value": "professional-v1"
         },
         {
           "name": "watson_discovery_plan",
-          "value": "plus"
+          "value": "do not install"
         },
         {
           "name": "watsonx_assistant_plan",
