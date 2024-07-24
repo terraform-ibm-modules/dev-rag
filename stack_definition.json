@@ -360,7 +360,7 @@
         },
         {
           "name": "watsonx_project_name",
-          "value": null
+          "value": "__NULL__"
         }
       ]
     },
