@@ -360,7 +360,7 @@
         },
         {
           "name": "watsonx_project_name",
-          "value": "ref:../../inputs/prefix"
+          "value": null
         }
       ]
     },
