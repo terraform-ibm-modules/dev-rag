@@ -340,7 +340,7 @@
         },
         {
           "name": "watson_machine_learning_plan",
-          "value": "do not install"
+          "value": "v2-standard"
         },
         {
           "name": "watson_studio_plan",
@@ -348,7 +348,7 @@
         },
         {
           "name": "watson_discovery_plan",
-          "value": "do not install"
+          "value": "plus"
         },
         {
           "name": "watsonx_assistant_plan",
