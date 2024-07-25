@@ -352,7 +352,7 @@
         },
         {
           "name": "watsonx_assistant_plan",
-          "value": "do not install"
+          "value": "plus"
         },
         {
           "name": "watsonx_governance_plan",
