@@ -484,7 +484,7 @@
         },
         {
           "name": "watson_discovery_instance_id",
-          "value": "ref:../5 - WatsonX SaaS services/outputs/watson_discovery_guid"
+          "value": "__NULL__"
         },
         {
           "name": "watson_assistant_region",
