@@ -484,7 +484,7 @@
         },
         {
           "name": "watson_discovery_instance_id",
-          "value": "ref:../4 - WatsonX SaaS services/outputs/watson_discovery_guid"
+          "value": "ref:../5 - WatsonX SaaS services/outputs/watson_discovery_guid"
         },
         {
           "name": "watson_assistant_region",
@@ -492,27 +492,27 @@
         },
         {
           "name": "watson_assistant_instance_id",
-          "value": "ref:../4 - WatsonX SaaS services/outputs/watsonx_assistant_guid"
+          "value": "ref:../5 - WatsonX SaaS services/outputs/watsonx_assistant_guid"
         },
         {
           "name": "cd_pipeline_id",
-          "value": "ref:../5 - Sample RAG app - Application Lifecycle Management/outputs/cd_pipeline_id"
+          "value": "ref:../6 - Sample RAG app - Application Lifecycle Management/outputs/cd_pipeline_id"
         },
         {
           "name": "ci_pipeline_id",
-          "value": "ref:../5 - Sample RAG app - Application Lifecycle Management/outputs/ci_pipeline_id"
+          "value": "ref:../6 - Sample RAG app - Application Lifecycle Management/outputs/ci_pipeline_id"
         },
         {
           "name": "watson_machine_learning_instance_guid",
-          "value": "ref:../4 - WatsonX SaaS services/outputs/watson_machine_learning_guid"
+          "value": "ref:../5 - WatsonX SaaS services/outputs/watson_machine_learning_guid"
         },
         {
           "name": "watson_machine_learning_instance_resource_name",
-          "value": "ref:../4 - WatsonX SaaS services/outputs/watson_machine_learning_name"
+          "value": "ref:../5 - WatsonX SaaS services/outputs/watson_machine_learning_name"
         },
         {
           "name": "watson_machine_learning_instance_crn",
-          "value": "ref:../4 - WatsonX SaaS services/outputs/watson_machine_learning_crn"
+          "value": "ref:../5 - WatsonX SaaS services/outputs/watson_machine_learning_crn"
         },
         {
           "name": "toolchain_resource_group",
