@@ -307,6 +307,10 @@
 							"description": "Elasticsearch instance service credentials json map."
 						},
 						{
+							"key": "elasticsearch_crn",
+							"description": "Elasticsearch instance crn."
+						},
+						{
 							"key": "watsonx_project_url",
 							"description": "The URL to the WatsonX project for the sample RAG application."
 						},
