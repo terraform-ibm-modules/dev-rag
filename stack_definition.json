@@ -348,7 +348,7 @@
         },
         {
           "name": "watson_discovery_plan",
-          "value": "do not install"
+          "value": "plus"
         },
         {
           "name": "watsonx_assistant_plan",
@@ -484,7 +484,7 @@
         },
         {
           "name": "watson_discovery_instance_id",
-          "value": "__NULL__"
+          "value": "ref:../5 - WatsonX SaaS services/outputs/watson_discovery_guid"
         },
         {
           "name": "watson_assistant_region",
