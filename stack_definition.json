@@ -556,7 +556,7 @@
           "value": "ibmcloud-api-key"
         },
         {
-          "name": "code_engine_project_prefix",
+          "name": "prefix",
           "value": "ref:../../inputs/prefix"
         },
         {
