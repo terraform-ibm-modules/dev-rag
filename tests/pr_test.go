@@ -38,9 +38,10 @@ func TestProjectsFullTest(t *testing.T) {
 	t.Parallel()
 
 	options := testprojects.TestProjectOptionsDefault(&testprojects.TestProjectsOptions{
-		Testing:        t,
-		Prefix:         "rag-stack",
-		ParallelDeploy: true,
+		Testing:                t,
+		Prefix:                 "rag-stack",
+		ParallelDeploy:         true,
+		StackConfigurationPath: "basic",
 	})
 
 	privateKey, _, kerr := common.GenerateTempGPGKeyPairBase64()
