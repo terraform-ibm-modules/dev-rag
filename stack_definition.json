@@ -93,7 +93,7 @@
   "members": [
     {
       "name": "1 - Account Infrastructure Base",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.62aeb17c-2272-416c-b982-5f17fa508d04-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.46e4d114-53c1-488e-8908-efd7196c91f4-global",
       "inputs": [
         {
           "name": "prefix",
@@ -246,10 +246,6 @@
         {
           "name": "watsonx_governance_plan",
           "value": "do not install"
-        },
-        {
-          "name": "watsonx_project_name",
-          "value": "ref:../../inputs/prefix"
         }
       ]
     },
@@ -293,7 +289,7 @@
     },
     {
       "name": "3b - Databases for Elasticsearch",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.f4b9793a-611c-4f6c-9181-ca1fbdaa37fa-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.9e63c855-8749-412e-bc3e-bd24caaadc91-global",
       "inputs": [
         {
           "name": "use_existing_resource_group",
@@ -301,7 +297,7 @@
         },
         {
           "name": "resource_group_name",
-          "value": "ref:../../members/1 - Account Infrastructure Base/outputs/workload_resource_group_name"
+          "value": "ref:../../members/1 - Account Infrastructure Base/outputs/observability_resource_group_name"
         },
         {
           "name": "region",
@@ -343,7 +339,7 @@
     },
     {
       "name": "4 - Event Notifications",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.3910e11e-c90b-48b0-b271-ec5d5049ad84-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.54f93c23-e45e-4bbb-bcf8-0f5f9bcce0ea-global",
       "inputs": [
         {
           "name": "kms_endpoint_url",
@@ -359,7 +355,7 @@
         },
         {
           "name": "resource_group_name",
-          "value": "ref:../1 - Account Infrastructure Base/outputs/workload_resource_group_name"
+          "value": "ref:../1 - Account Infrastructure Base/outputs/observability_resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -473,7 +469,7 @@
         },
         {
           "name": "toolchain_name",
-          "value": "RAG Sample App"
+          "value": "rag-sample-app"
         },
         {
           "name": "toolchain_region",
@@ -497,11 +493,11 @@
         },
         {
           "name": "ci_code_engine_project",
-          "value": "Generative_AI_Sample_App_CI_Project"
+          "value": "generative-ai-sample-app-ci-project"
         },
         {
           "name": "cd_code_engine_project",
-          "value": "Generative_AI_Sample_App_CD_Project"
+          "value": "generative-ai-sample-app-cd-project"
         },
         {
           "name": "registry_namespace",
