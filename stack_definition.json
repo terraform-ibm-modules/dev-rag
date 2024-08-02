@@ -297,7 +297,7 @@
         },
         {
           "name": "resource_group_name",
-          "value": "ref:../../members/1 - Account Infrastructure Base/outputs/observability_resource_group_name"
+          "value": "ref:../../members/1 - Account Infrastructure Base/outputs/workload_resource_group_name"
         },
         {
           "name": "region",
