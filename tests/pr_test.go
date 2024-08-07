@@ -3,6 +3,7 @@ package tests
 import (
 	"fmt"
 	"log"
+	"math/rand"
 	"os"
 	"strings"
 	"testing"
@@ -64,6 +65,12 @@ func TestProjectsFullTest(t *testing.T) {
 
 func TestProjectsExistingResourcesTest(t *testing.T) {
 	t.Parallel()
+	// Current supported regions
+	var validRegions = []string{
+		"us-south",
+		"eu-de",
+		"eu-es",
+	}
 
 	// ------------------------------------------------------------------------------------
 	// Provision RG, EN and SM
@@ -83,6 +90,7 @@ func TestProjectsExistingResourcesTest(t *testing.T) {
 		TerraformDir: tempTerraformDir,
 		Vars: map[string]interface{}{
 			"prefix": prefix,
+			"region": validRegions[rand.Intn(len(validRegions))],
 		},
 		// Set Upgrade to true to ensure latest version of providers and modules are used by terratest.
 		// This is the same as setting the -upgrade=true flag with terraform.
@@ -110,6 +118,7 @@ func TestProjectsExistingResourcesTest(t *testing.T) {
 
 		options.StackInputs = map[string]interface{}{
 			"prefix":                       terraform.Output(t, existingTerraformOptions, "prefix"),
+			"region":                       terraform.Output(t, existingTerraformOptions, "region"),
 			"existing_resource_group_name": terraform.Output(t, existingTerraformOptions, "resource_group_name"),
 			"ibmcloud_api_key":             options.RequiredEnvironmentVars["TF_VAR_ibmcloud_api_key"], // always required by the stack
 			"enable_platform_logs_metrics": false,
