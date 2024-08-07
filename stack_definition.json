@@ -251,7 +251,7 @@
     },
     {
       "name": "3a - Observability - Logging Monitoring Activity Tracker",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.9559b390-b310-4373-a61d-c4add658c3cf-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.a674b7d6-836b-4ec9-9580-4ca5151629af-global",
       "inputs": [
         {
           "name": "ibmcloud_api_key",
