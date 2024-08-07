@@ -76,6 +76,13 @@
       "default": null
     },
     {
+      "name": "existing_scc_instance_crn",
+      "required": false,
+      "type": "string",
+      "hidden": false,
+      "default": null
+    },
+    {
       "name": "enable_platform_logs_metrics",
       "required": false,
       "type": "boolean",
@@ -438,6 +445,14 @@
           "value": "ref:../../inputs/region"
         },
         {
+          "name": "existing_scc_instance_crn",
+          "value": "ref:../../inputs/existing_scc_instance_crn"
+        },
+        {
+          "name": "provision_scc_workload_protection",
+          "value": false
+        },
+        {
           "name": "resource_group_name",
           "value": "ref:../1 - Account Infrastructure Base/outputs/audit_resource_group_name"
         },
@@ -448,10 +463,6 @@
         {
           "name": "use_existing_resource_group",
           "value": true
-        },
-        {
-          "name": "provision_scc_workload_protection",
-          "value": false
         },
         {
           "name": "existing_en_crn",
