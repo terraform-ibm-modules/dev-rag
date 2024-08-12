@@ -126,6 +126,7 @@ func TestProjectsExistingResourcesTest(t *testing.T) {
 			"signing_key":                  privateKey,
 			"existing_kms_instance_crn":    permanentResources["hpcs_south_crn"],
 			"existing_en_instance_crn":     terraform.Output(t, existingTerraformOptions, "event_notification_instance_crn"),
+			"existing_scc_instance_crn":    terraform.Output(t, existingTerraformOptions, "existing_scc_instance_crn"),
 			"en_email_list":                []string{"GoldenEye.Operations@ibm.com"},
 		}
 
