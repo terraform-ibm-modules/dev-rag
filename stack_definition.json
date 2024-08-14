@@ -123,6 +123,13 @@
       "type": "string",
       "hidden": false,
       "default": null
+    },
+    {
+      "name": "existing_db_instance_crn",
+      "required": false,
+      "type": "string",
+      "hidden": false,
+      "default": null
     }
   ],
   "members": [
@@ -393,6 +400,10 @@
             "wxasst_db_user": "Editor",
             "toolchain_db_user": "Editor"
           }
+        },
+        {
+          "name": "existing_db_instance_crn",
+          "value": "ref:../../inputs/existing_db_instance_crn"
         }
       ]
     },
