@@ -709,7 +709,7 @@
         },
         {
           "name": "elastic_instance_crn",
-          "value": "ref:s../3b - Databases for Elasticsearch/outputs/crn"
+          "value": "ref:../3b - Databases for Elasticsearch/outputs/crn"
         },
         {
           "name": "cos_kms_crn",
