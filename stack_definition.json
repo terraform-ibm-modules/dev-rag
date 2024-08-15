@@ -644,10 +644,6 @@
           "value": "ref:../../inputs/region"
         },
         {
-          "name": "watson_discovery_instance_id",
-          "value": "ref:../2b - WatsonX SaaS services/outputs/watson_discovery_guid"
-        },
-        {
           "name": "watson_assistant_region",
           "value": "ref:../../inputs/region"
         },
