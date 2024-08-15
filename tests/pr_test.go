@@ -34,7 +34,7 @@ func TestMain(m *testing.M) {
 	os.Exit(m.Run())
 }
 
-func TestProjectsFullTest(t *testing.T) {
+func TestProjectsBasicFullTest(t *testing.T) {
 	t.Parallel()
 
 	options := testprojects.TestProjectOptionsDefault(&testprojects.TestProjectsOptions{
@@ -64,9 +64,7 @@ func TestProjectsFullTest(t *testing.T) {
 	}
 }
 
-func TestProjectsExistingResourcesTest(t *testing.T) {
-	// TODO: pipeline has issues with SM trial version, to unblock further Stack testing, disabling that test for now
-	t.Skip()
+func TestProjectsBasicExistingResourcesTest(t *testing.T) {
 	t.Parallel()
 	// Current supported regions
 	var validRegions = []string{
@@ -110,8 +108,9 @@ func TestProjectsExistingResourcesTest(t *testing.T) {
 		// ------------------------------------------------------------------------------------
 
 		options := testprojects.TestProjectOptionsDefault(&testprojects.TestProjectsOptions{
-			Testing:        t,
-			ParallelDeploy: true,
+			Testing:                t,
+			ParallelDeploy:         true,
+			StackConfigurationPath: "basic/stack_definition.json",
 		})
 
 		privateKey, _, kerr := common.GenerateTempGPGKeyPairBase64()
