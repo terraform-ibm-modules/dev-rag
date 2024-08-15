@@ -34,6 +34,8 @@ func TestMain(m *testing.M) {
 	os.Exit(m.Run())
 }
 
+const basicDaStackDefPath = "solutions/basic/stack_definition.json"
+
 func TestProjectsBasicFullTest(t *testing.T) {
 	t.Parallel()
 
@@ -41,7 +43,7 @@ func TestProjectsBasicFullTest(t *testing.T) {
 		Testing:                t,
 		Prefix:                 "rag-stack",
 		ParallelDeploy:         true,
-		StackConfigurationPath: "basic/stack_definition.json",
+		StackConfigurationPath: basicDaStackDefPath,
 	})
 
 	privateKey, _, kerr := common.GenerateTempGPGKeyPairBase64()
@@ -110,7 +112,7 @@ func TestProjectsBasicExistingResourcesTest(t *testing.T) {
 		options := testprojects.TestProjectOptionsDefault(&testprojects.TestProjectsOptions{
 			Testing:                t,
 			ParallelDeploy:         true,
-			StackConfigurationPath: "basic/stack_definition.json",
+			StackConfigurationPath: basicDaStackDefPath,
 		})
 
 		privateKey, _, kerr := common.GenerateTempGPGKeyPairBase64()
