@@ -50,7 +50,7 @@ module "key_protect_all_inclusive" {
   key_protect_instance_name   = "${var.prefix}-kms"
   region                      = var.region
   resource_tags               = var.resource_tags
-  key_protect_allowed_network = "private-only"
+  key_protect_allowed_network = "public-and-private"
   key_ring_endpoint_type      = "private"
   key_endpoint_type           = "private"
 }
