@@ -721,31 +721,31 @@
     },
     {
       "name": "elasticsearch_port",
-      "value": " ref:../3b - Databases for Elasticsearch/outputs/port"
+      "value": "ref:../3b - Databases for Elasticsearch/outputs/port"
     },
     {
       "name": "elasticsearch_service_credentials_json",
-      "value": " ref:../3b - Databases for Elasticsearch/outputs/service_credentials_json"
+      "value": "ref:../3b - Databases for Elasticsearch/outputs/service_credentials_json"
     },
     {
       "name": "elasticsearch_crn",
-      "value": " ref:../3b - Databases for Elasticsearch/outputs/crn"
+      "value": "ref:../3b - Databases for Elasticsearch/outputs/crn"
     },
     {
       "name": "watsonx_project_url",
-      "value": " ref:../7 - Sample RAG app configuration/outputs/watsonx_project_url"
+      "value": "ref:../7 - Sample RAG app configuration/outputs/watsonx_project_url"
     },
     {
       "name": "watsonx_project_id",
-      "value": " ref:../7 - Sample RAG app configuration/outputs/watsonx_project_id"
+      "value": "ref:../7 - Sample RAG app configuration/outputs/watsonx_project_id"
     },
     {
       "name": "watson_discovery_api_url",
-      "value": " ref:../7 - Sample RAG app configuration/outputs/watson_discovery_api_url"
+      "value": "ref:../7 - Sample RAG app configuration/outputs/watson_discovery_api_url"
     },
     {
       "name": "watson_discovery_project_id",
-      "value": " ref:../7 - Sample RAG app configuration/outputs/watson_discovery_project_id"
+      "value": "ref:../7 - Sample RAG app configuration/outputs/watson_discovery_project_id"
     }
   ]
 }
