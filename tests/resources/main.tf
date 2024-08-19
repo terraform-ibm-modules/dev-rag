@@ -72,4 +72,19 @@ module "create_scc_instance" {
   cos_instance_crn                  = module.cos.cos_instance_id
   attach_wp_to_scc_instance         = false
   skip_cos_iam_authorization_policy = false
+
+##############################################################################
+# Key Protect All Inclusive
+##############################################################################
+
+module "key_protect_all_inclusive" {
+  source                      = "terraform-ibm-modules/kms-all-inclusive/ibm"
+  version                     = "4.15.6"
+  resource_group_id           = module.resource_group.resource_group_id
+  key_protect_instance_name   = "${var.prefix}-kms"
+  region                      = var.region
+  resource_tags               = var.resource_tags
+  key_protect_allowed_network = "public-and-private"
+  key_ring_endpoint_type      = "private"
+  key_endpoint_type           = "private"
 }
