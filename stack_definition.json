@@ -8,6 +8,7 @@
       "default": "rag"
     },
     {
+      
       "name": "secret_manager_service_plan",
       "required": false,
       "type": "string",
