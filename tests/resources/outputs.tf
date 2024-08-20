@@ -32,7 +32,7 @@ output "existing_scc_instance_crn" {
   value       = module.scc_instance.crn
   description = "CRN of created scc instance"
 }
-  
+
 output "kms_instance_crn" {
   value       = module.key_protect_all_inclusive.key_protect_crn
   description = "CRN of created kms instance"
