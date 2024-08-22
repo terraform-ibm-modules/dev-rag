@@ -373,7 +373,7 @@
     },
     {
       "name": "5a - Security Service - Secret Manager",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.3ed1f957-f294-422f-be13-d18c4c87e883-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.266ee06f-e0d3-486e-8016-c5ce25845680-global",
       "inputs": [
         {
           "name": "prefix",
