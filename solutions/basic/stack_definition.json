@@ -383,6 +383,10 @@
           "value": "ref:../../inputs/region"
         },
         {
+          "name": "existing_scc_instance_crn",
+          "value": "ref:../../inputs/existing_scc_instance_crn"
+        },
+        {
           "name": "resource_group_name",
           "value": "ref:../Account Infrastructure Base/outputs/audit_resource_group_name"
         },
@@ -511,18 +515,6 @@
           "value": "ref:../../inputs/existing_discovery_instance"
         },
         {
-          "name": "existing_scc_instance_crn",
-          "value": "ref:../../inputs/existing_scc_instance_crn"
-        },
-        {
-          "name": "provision_scc_workload_protection",
-          "value": false
-        },
-        {
-          "name": "resource_group_name",
-          "value": "ref:../1 - Account Infrastructure Base/outputs/audit_resource_group_name"
-        },
-        {
           "name": "watsonx_assistant_plan",
           "value": "plus"
         },
@@ -533,10 +525,6 @@
         {
           "name": "watsonx_governance_plan",
           "value": "do not install"
-        },
-        {
-          "name": "existing_en_crn",
-          "value": "ref:../4 - Event Notifications/outputs/crn"
         },
         {
           "name": "existing_governance_instance",
