@@ -398,6 +398,10 @@
         {
           "name": "existing_en_crn",
           "value": "ref:../Baseline Security - Observability Event Notifications/outputs/crn"
+        },
+        {
+          "name": "profile_attachments",
+          "value": []
         }
       ]
     },
