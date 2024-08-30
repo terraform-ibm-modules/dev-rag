@@ -383,6 +383,10 @@
           "value": "ref:../../inputs/region"
         },
         {
+          "name": "profile_attachments",
+          "value": "AI Security Guardrails 2.0"
+        },
+        {
           "name": "existing_scc_instance_crn",
           "value": "ref:../../inputs/existing_scc_instance_crn"
         },
