@@ -14,6 +14,7 @@
       "hidden": false,
       "default": "trial"
     },
+    
     {
       "name": "watsonx_admin_api_key",
       "required": false,
