@@ -622,10 +622,6 @@
           "value": "ref:../Baseline Security - Secrets Manager/outputs/secrets_manager_region"
         },
         {
-          "name": "ci_code_engine_project",
-          "value": "generative-ai-sample-app-ci-project"
-        },
-        {
           "name": "registry_namespace",
           "value": "rag-sample-app"
         },
