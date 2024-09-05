@@ -308,7 +308,7 @@
 							"required": false
 						},
 						{
-							"key": "existing_en_instance_crn",
+							"key": "existing_event_notification_instance_crn",
 							"type": "string",
 							"default_value": "__NULL__",
 							"description": "The CRN of an existing event notification instance to use in this solution. If not set, a new event notification instance is provisioned.",
@@ -662,7 +662,7 @@
 							"required": false
 						},
 						{
-							"key": "existing_en_instance_crn",
+							"key": "existing_event_notification_instance_crn",
 							"type": "string",
 							"default_value": "__NULL__",
 							"description": "The CRN of an existing event notification instance to use in this solution. If not set, a new event notification instance is provisioned.",
