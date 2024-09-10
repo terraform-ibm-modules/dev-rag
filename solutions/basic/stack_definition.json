@@ -402,13 +402,15 @@
         },
         {
           "name": "profile_attachments",
-          "value": ["AI Security Guardrails 2.0"]
+          "value": [
+            "AI Security Guardrails 2.0"
+          ]
         }
       ]
     },
     {
       "name": "Gen AI - Databases for Elasticsearch",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.1b14c633-2d83-49a9-a9ee-4ce5921e22e1-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.3858adc6-94f5-4f28-97c0-f249cba95e8a-global",
       "inputs": [
         {
           "name": "use_existing_resource_group",
@@ -560,7 +562,10 @@
         },
         {
           "name": "project_names",
-          "value": ["Generative_AI_Sample_App_CI_Project", "Generative_AI_Sample_App_CD_Project"]
+          "value": [
+            "Generative_AI_Sample_App_CI_Project",
+            "Generative_AI_Sample_App_CD_Project"
+          ]
         },
         {
           "name": "region",
