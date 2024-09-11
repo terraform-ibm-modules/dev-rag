@@ -160,7 +160,7 @@ func TestProjectsStandardFullTest(t *testing.T) {
 
 	options := testprojects.TestProjectOptionsDefault(&testprojects.TestProjectsOptions{
 		Testing:                t,
-		Prefix:                 "rag-std-stack",
+		Prefix:                 "rag-s",
 		ParallelDeploy:         true,
 		StackConfigurationPath: standardDaStackDefPath,
 	})
