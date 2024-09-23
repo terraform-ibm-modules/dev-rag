@@ -565,7 +565,14 @@
         {
           "name": "vpcs",
           "value": [
+            "management",
             "workload"
+          ]
+        },
+        {
+          "name": "ignore_vpcs_for_cluster_deployment",
+          "value": [
+            "management"
           ]
         },
         {
