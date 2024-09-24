@@ -2,7 +2,7 @@
 	"products": [
 		{
 			"label": "Testing - Retrieval Augmented Generation Pattern (Dev)",
-			"name": "Testing - Retrieval_Augmented_Generation_Pattern_dev",
+			"name": "Testing_Retrieval_Augmented_Generation_Pattern_dev",
 			"product_kind": "solution",
 			"tags": [
 				"watson",
