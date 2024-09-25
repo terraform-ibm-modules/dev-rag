@@ -316,10 +316,6 @@
           "value": "ref:../../inputs/prefix"
         },
         {
-          "name": "existing_monitoring_crn",
-          "value": "ref:../Essential Security - Logging Monitoring Activity Tracker/outputs/cloud_monitoring_crn"
-        },
-        {
           "name": "existing_en_instance_crn",
           "value": "ref:../../inputs/existing_event_notification_instance_crn"
         }
