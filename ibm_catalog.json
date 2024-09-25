@@ -229,7 +229,7 @@
 							],
 							"name": "Testing_Core_Security_Services",
 							"optional": true,
-							"version": "v1.0.4-addon"
+							"version": "^1.0.9"
 						}
 					],
 					"configuration": [
@@ -469,7 +469,7 @@
 							],
 							"name": "Testing_Core_Security_Services",
 							"optional": true,
-							"version": "v1.0.4-addon"
+							"version": "^1.0.9"
 						}
 					],
 					"configuration": [
