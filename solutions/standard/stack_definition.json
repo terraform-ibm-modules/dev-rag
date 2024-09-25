@@ -76,11 +76,11 @@
       "default": null
     },
     {
-      "name": "enable_platform_logs_metrics",
+      "name": "logs_routing_tenant_regions",
       "required": false,
-      "type": "boolean",
+      "type": "array",
       "hidden": false,
-      "default": false
+      "default": []
     },
     {
       "name": "existing_discovery_instance",
@@ -263,8 +263,12 @@
           "value": true
         },
         {
-          "name": "enable_platform_logs",
-          "value": "ref:../../inputs/enable_platform_logs_metrics"
+          "name": "existing_en_instance_crn",
+          "value": "ref:../Essential Security - Observability Event Notifications/outputs/crn"
+        },
+        {
+          "name": "logs_routing_tenant_regions",
+          "value": "ref:../../inputs/logs_routing_tenant_regions"
         },
         {
           "name": "enable_platform_metrics",
