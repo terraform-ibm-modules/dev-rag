@@ -76,6 +76,13 @@
       "default": null
     },
     {
+      "name": "existing_scc_cos_instance_crn",
+      "required": false,
+      "type": "string",
+      "hidden": false,
+      "default": null
+    },
+    {
       "name": "existing_event_notification_instance_crn",
       "required": false,
       "type": "string",
@@ -398,6 +405,10 @@
         {
           "name": "existing_scc_instance_crn",
           "value": "ref:../../inputs/existing_scc_instance_crn"
+        },
+        {
+          "name": "existing_scc_cos_instance_crn",
+          "value": "ref:../../inputs/existing_scc_cos_instance_crn"
         },
         {
           "name": "use_existing_resource_group",
