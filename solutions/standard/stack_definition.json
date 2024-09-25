@@ -76,6 +76,13 @@
       "default": null
     },
     {
+      "name": "enable_platform_metrics",
+      "required": false,
+      "type": "boolean",
+      "hidden": false,
+      "default": false
+    },
+    {
       "name": "logs_routing_tenant_regions",
       "required": false,
       "type": "array",

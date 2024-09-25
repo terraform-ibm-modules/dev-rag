@@ -83,6 +83,13 @@
       "default": false
     },
     {
+      "name": "logs_routing_tenant_regions",
+      "required": false,
+      "type": "array",
+      "hidden": false,
+      "default": []
+    },
+    {
       "name": "existing_discovery_instance",
       "required": false,
       "type": "string",
