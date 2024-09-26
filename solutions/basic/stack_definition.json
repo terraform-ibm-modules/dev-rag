@@ -76,20 +76,6 @@
       "default": null
     },
     {
-      "name": "existing_scc_cos_instance_crn",
-      "required": false,
-      "type": "string",
-      "hidden": false,
-      "default": null
-    },
-    {
-      "name": "existing_scc_cos_bucket_name",
-      "required": false,
-      "type": "string",
-      "hidden": false,
-      "default": null
-    },
-    {
       "name": "existing_event_notification_instance_crn",
       "required": false,
       "type": "string",
@@ -383,7 +369,7 @@
     },
     {
       "name": "Essential Security - Security Compliance Center",
-      "version_locator": "ea8f7fc8-5e55-4d44-aa88-74351efde440.ded48fe5-2ed1-45de-a512-7500dc25a466",
+      "version_locator": "ea8f7fc8-5e55-4d44-aa88-74351efde440.1b0db483-3eba-44fc-93a0-733956c4cd8f",
       "inputs": [
         {
           "name": "ibmcloud_api_key",
@@ -412,14 +398,6 @@
         {
           "name": "existing_scc_instance_crn",
           "value": "ref:../../inputs/existing_scc_instance_crn"
-        },
-        {
-          "name": "existing_scc_cos_instance_crn",
-          "value": "ref:../../inputs/existing_scc_cos_instance_crn"
-        },
-        {
-          "name": "existing_scc_cos_bucket_name",
-          "value": "ref:../../inputs/existing_scc_cos_bucket_name"
         },
         {
           "name": "use_existing_resource_group",
