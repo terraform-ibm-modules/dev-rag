@@ -271,7 +271,7 @@
         },
         {
           "name": "existing_en_instance_crn",
-          "value": "ref:../Essential Security - Observability Event Notifications/outputs/crn"
+          "value": "ref:../Essential Security - Event Notifications/outputs/crn"
         },
         {
           "name": "logs_routing_tenant_regions",
@@ -284,7 +284,7 @@
       ]
     },
     {
-      "name": "Essential Security - Observability Event Notifications",
+      "name": "Essential Security - Event Notifications",
       "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.b7a7944c-55fa-4196-b995-df8bc085870a-global",
       "inputs": [
         {
@@ -359,7 +359,7 @@
         },
         {
           "name": "existing_event_notification_instance_crn",
-          "value": "ref:../Essential Security - Observability Event Notifications/outputs/crn"
+          "value": "ref:../Essential Security - Event Notifications/outputs/crn"
         },
         {
           "name": "enable_event_notification",
@@ -405,7 +405,7 @@
         },
         {
           "name": "existing_en_crn",
-          "value": "ref:../Essential Security - Observability Event Notifications/outputs/crn"
+          "value": "ref:../Essential Security - Event Notifications/outputs/crn"
         },
         {
           "name": "profile_attachments",
