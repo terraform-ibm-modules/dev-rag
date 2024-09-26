@@ -415,7 +415,7 @@
     },
     {
       "name": "Gen AI - Databases for Elasticsearch",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.0857b54b-7bd5-46b7-ab4c-89cfc70cde4a-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.aa4a2c9b-8a6a-472d-a9d3-9fc6e97b062f-global",
       "inputs": [
         {
           "name": "use_existing_resource_group",
