@@ -623,7 +623,7 @@
           "value": "rag-app"
         },
         {
-          "name": "ci_app_repo_clone_from_url",
+          "name": "app_repo_clone_from_url",
           "value": "ref:../../inputs/sample_app_git_url"
         },
         {
@@ -635,28 +635,12 @@
           "value": "rag-sample-app"
         },
         {
-          "name": "ci_code_engine_image_name",
-          "value": "code-engine-rag-app"
+          "name": "cd_pipeline_properties",
+          "value": "[{\"pipeline_id\":\"cd\",\"properties\":[{\"name\":\"env-from-configmaps\",\"type\":\"text\",\"value\":\"app.properties\"},{\"name\":\"app-min-scale\",\"type\":\"text\",\"value\":\"1\"}]}]"
         },
         {
-          "name": "ci_code_engine_context_dir",
-          "value": "."
-        },
-        {
-          "name": "ci_code_engine_env_from_configmaps",
-          "value": "app.properties"
-        },
-        {
-          "name": "cd_code_engine_env_from_configmaps",
-          "value": "app.properties"
-        },
-        {
-          "name": "ci_code_engine_app_min_scale",
-          "value": "1"
-        },
-        {
-          "name": "cd_code_engine_app_min_scale",
-          "value": "1"
+          "name": "ci_pipeline_properties",
+          "value": "[{\"pipeline_id\":\"ci\",\"properties\":[{\"name\":\"image-name\",\"type\":\"text\",\"value\":\"code-engine-rag-app\"},{\"name\":\"context-dir\",\"type\":\"text\",\"value\":\".\"},{\"name\":\"env-from-configmaps\",\"type\":\"text\",\"value\":\"app.properties\"},{\"name\":\"app-min-scale\",\"type\":\"text\",\"value\":\"1\"}]}]"
         },
         {
           "name": "ci_signing_key_secret_name",

@@ -673,11 +673,11 @@
           "value": "rag-app"
         },
         {
-          "name": "ci_app_repo_clone_from_url",
+          "name": "app_repo_clone_from_url",
           "value": "ref:../../inputs/sample_app_git_url"
         },
         {
-          "name": "ci_app_repo_clone_from_branch",
+          "name": "app_repo_branch",
           "value": "main"
         },
         {
