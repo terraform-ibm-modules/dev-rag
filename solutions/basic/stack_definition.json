@@ -404,7 +404,7 @@
     },
     {
       "name": "Gen AI - Databases for Elasticsearch",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.aa4a2c9b-8a6a-472d-a9d3-9fc6e97b062f-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.745ef12b-275e-475d-acb8-fa01fbd47d75-global",
       "inputs": [
         {
           "name": "use_existing_resource_group",
@@ -659,7 +659,7 @@
     },
     {
       "name": "Workload - Sample RAG App Configuration",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.15a21bde-a11f-476b-a312-83a9c863e8eb-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.d667aa0d-ce6f-4ca2-99ff-879539497050-global",
       "inputs": [
         {
           "name": "toolchain_region",
