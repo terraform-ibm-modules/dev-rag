@@ -545,11 +545,6 @@
 								"title": "7. Build your own data processing, ingestion pipeline and indexes",
 								"description": " "
 							}
-
-							{
-								"title": "Enables:",
-								"description": "1.Red Hat OpenShift cluster for microservices workloads\n2.Elasticsearch Platinum for building and storing sparse vectors, dense vector indexes or keyword search indexes\n  - watsonx.ai use of Elasticsearch ELSER2 vector index for RAG\n  - watsonx Assistant Conversational Search with UI feature for uploading documents to create or use Elasticsearch ELSER2 vector index for RAG\n3.watsonx.ai in-memory vector store for RAG trial and exploration\n4.watsonx.ai UI to upload documents\n5.watsonx.ai Prompt Lab for inferencing and Prompt Templates\n6.watsonx Assistant Conversational Search with embedded LLM\n7.Build your own data processing, ingestion pipeline and indexes"
-							}
 						],
 						"diagrams": [
 							{
