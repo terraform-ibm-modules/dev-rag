@@ -712,7 +712,7 @@
     },
     {
       "name": "Workload - Sample RAG App Configuration",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.89e63750-f8dc-4537-a825-a06132c445a5-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.1eab4944-1e11-4692-940d-ec97140329c5-global",
       "inputs": [
         {
           "name": "toolchain_region",
@@ -789,6 +789,14 @@
         {
           "name": "cos_kms_crn",
           "value": "ref:../Essential Security - Encryption Key Management/outputs/kms_instance_crn"
+        },
+        {
+          "name": "cluster_name",
+          "value": "ref:../Workload - Red Hat OpenShift Container Platform on VPC/outputs/workload_cluster_name"
+        },
+        {
+          "name": "cluster_zone_count",
+          "value": "ref:../Workload - Red Hat OpenShift Container Platform on VPC/inputs/cluster_zones"
         }
       ]
     }
