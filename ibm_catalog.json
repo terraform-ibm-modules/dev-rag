@@ -152,6 +152,13 @@
 								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
 								"crn:v1:bluemix:public:iam::::role:Editor"
 							]
+						},
+						{
+							"role_crns": [
+								"crn:v1:bluemix:public:iam::::serviceRole:Writer",
+								"crn:v1:bluemix:public:iam::::role:Editor"
+							],
+							"service_name": "codeengine"
 						}
 					],
 					"architecture": {
@@ -501,6 +508,18 @@
 								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
 								"crn:v1:bluemix:public:iam::::role:Editor"
 							]
+						},
+						{
+							"role_crns": [
+								"crn:v1:bluemix:public:iam::::role:Administrator"
+							],
+							"service_name": "containers-kubernetes"
+						},
+						{
+							"role_crns": [
+								"crn:v1:bluemix:public:iam::::role:Administrator"
+							],
+							"service_name": "is.vpc"
 						}
 					],
 					"architecture": {
