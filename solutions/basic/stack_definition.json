@@ -267,10 +267,6 @@
           "value": "ref:../Essential Security - Event Notifications/outputs/crn"
         },
         {
-          "name": "logs_routing_tenant_regions",
-          "value": "ref:../../inputs/logs_routing_tenant_regions"
-        },
-        {
           "name": "enable_platform_metrics",
           "value": "ref:../../inputs/enable_platform_metrics"
         }
@@ -663,7 +659,7 @@
     },
     {
       "name": "Workload - Sample RAG App Configuration",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.1eab4944-1e11-4692-940d-ec97140329c5-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.15a21bde-a11f-476b-a312-83a9c863e8eb-global",
       "inputs": [
         {
           "name": "toolchain_region",
