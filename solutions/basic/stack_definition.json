@@ -76,7 +76,7 @@
       "default": null
     },
     {
-      "name": "enable_platform_metrics",
+      "name": "enable_platform_logs_metrics",
       "required": false,
       "type": "boolean",
       "hidden": false,
@@ -236,7 +236,7 @@
     },
     {
       "name": "Essential Security - Logging Monitoring Activity Tracker",
-      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.eaf90e32-42b4-4cd6-a4c3-ea720f6ea9f7-global",
+      "version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.157744e4-5ef1-4e0f-9b8b-8b49b2ee8bb2-global",
       "inputs": [
         {
           "name": "ibmcloud_api_key",
@@ -268,7 +268,11 @@
         },
         {
           "name": "enable_platform_metrics",
-          "value": "ref:../../inputs/enable_platform_metrics"
+          "value": "ref:../../inputs/enable_platform_logs_metrics"
+        },
+        {
+          "name": "enable_platform_logging",
+          "value": "ref:../../inputs/enable_platform_logs_metrics"
         }
       ]
     },
