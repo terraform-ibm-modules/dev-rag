@@ -369,7 +369,7 @@
     },
     {
       "name": "Essential Security - Security Compliance Center",
-      "version_locator": "ea8f7fc8-5e55-4d44-aa88-74351efde440.c0669fd8-296e-4f48-af7c-1a2bb80123ef",
+      "version_locator": "ea8f7fc8-5e55-4d44-aa88-74351efde440.e2a7413e-a9ac-491c-9711-00eb3909fa17",
       "inputs": [
         {
           "name": "ibmcloud_api_key",
