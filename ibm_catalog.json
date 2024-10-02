@@ -223,7 +223,7 @@
 							"id": "b159ef1b-2b81-4ddf-83ef-acfc1fff9166",
 							"input_mapping": [
 								{
-									"dependency_output": "kms_instance_crn",
+									"dependency_output": "key_management_service_instance_crn",
 									"version_input": "existing_kms_instance_crn"
 								}
 							],
