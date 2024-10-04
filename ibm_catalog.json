@@ -441,7 +441,8 @@
 						},
 						{
 							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Administrator"
+								"crn:v1:bluemix:public:iam::::role:Administrator",
+								"crn:v1:bluemix:public:iam-identity::::serviceRole:UserApiKeyCreator"
 							],
 							"service_name": "iam-identity"
 						},
