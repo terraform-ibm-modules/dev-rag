@@ -1,7 +1,7 @@
 {
 	"products": [
 		{
-			"label": "Testing - Retrieval Augmented Generation Pattern (Dev)",
+			"label": "Testing - Container Hosting and Application Lifecycle Management",
 			"name": "Testing_Retrieval_Augmented_Generation_Pattern_dev",
 			"product_kind": "solution",
 			"tags": [
@@ -206,7 +206,7 @@
 								"agents"
 							],
 							"id": "daf2cf91-2384-4205-b7f4-621299a4896d",
-							"version": "^1.0.7",
+							"version": ">=1.0.7",
 							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
 							"optional": true,
 							"input_mapping": [
@@ -216,7 +216,7 @@
 						{
 							"name": "testing-deploy-arch-ibm-kms",
 							"id": "85fdbd7a-8c77-4abd-b716-653a31f3aba9",
-							"version": "^1.0.1",
+							"version": ">=1.0.1",
 							"flavors": [
 								"standard"
 							],
@@ -232,17 +232,14 @@
 						{
 							"name": "testing-deploy-arch-ibm-secrets-manager",
 							"id": "5f149ae6-d781-460a-977d-c8c4171ad0fa",
-							"version": "^1.0.1",
+							"version": ">=1.0.1",
 							"flavors": [
 								"standard"
 							],
 							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
 							"optional": true,
 							"input_mapping": [
-								{
-									"dependency_output": "kms_instance_crn",
-									"version_input": "existing_kms_instance_crn"
-								}
+
 							]
 						}
 					],
@@ -460,7 +457,7 @@
 								"agents"
 							],
 							"id": "daf2cf91-2384-4205-b7f4-621299a4896d",
-							"version": "^1.0.7",
+							"version": ">=1.0.7",
 							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
 							"optional": true,
 							"input_mapping": [
@@ -470,7 +467,7 @@
 						{
 							"name": "testing-deploy-arch-ibm-kms",
 							"id": "85fdbd7a-8c77-4abd-b716-653a31f3aba9",
-							"version": "^1.0.1",
+							"version": ">=1.0.1",
 							"flavors": [
 								"standard"
 							],
@@ -486,17 +483,14 @@
 						{
 							"name": "testing-deploy-arch-ibm-secrets-manager",
 							"id": "5f149ae6-d781-460a-977d-c8c4171ad0fa",
-							"version": "^1.0.1",
+							"version": ">=1.0.1",
 							"flavors": [
 								"standard"
 							],
 							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
 							"optional": true,
 							"input_mapping": [
-								{
-									"dependency_output": "kms_instance_crn",
-									"version_input": "existing_kms_instance_crn"
-								}
+
 							]
 						}
 					],
